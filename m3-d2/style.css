@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navBar{
+    height: 150px;
+    border-radius: 75px/50%;
+    background-color: #FEF7E2;
+    
+    }
+
+ul{
+    display: flex;
+    justify-content: space-around ;
+    line-height: 150px;
+    list-style: none;
+}
+
+ button{
+    width: 120px;
+    height: 40px;
+    background-color: #FFDF7E;
+    border-radius: 20px/50%;
+    line-height: 40px;
+    border: solid 0;
+    
+}
+button>img{
+    width: 50px;
+}
+.navBar>ul>li:nth-child(3)>button{
+    width:250px ;
+    height: 80px;
+    border-radius:30px/50% ;
+    font-weight: 700;
+    font-size: large;
+    
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.card{
+    background-image: url(assets/honey.jpg);
+    background-size:350px 200px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 350px;
+    background-color: #FEF7E2;
+    border-radius: 50%/75px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.description>button{
+display: flex;
+justify-content: center;
+}
+article>img{
+    width: 20em;
+}
+.article-layout{
+    float:right;
+}
